@@ -26,7 +26,7 @@
     height: 70px;
     background: rgb(230,57,70);
     position: absolute;
-    top: 386px;
+    top: 550px;
     left: 0px;
 }
 
@@ -60,7 +60,7 @@
 
 .clickimg {
     position: absolute;
-    top: 400px;
+    top: 560px;
     left: 1450px;
 }
     .clickimg1 {
@@ -85,7 +85,7 @@
   }
   .image4 {
       position: absolute;
-         top: -475px;
+         top: -630px;
          left: 950px;
   }
   .image5 {
