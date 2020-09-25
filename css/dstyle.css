@@ -6,7 +6,7 @@
   }
 
 .rgbbalk1 {
-    width: 1546px;
+    width: 1530px;
     height: 1px;
     background: white;
     position: absolute;
@@ -14,20 +14,20 @@
     left: -11px;
 }
 .rgbbalk2 {
-    width: 1546px;
-    height: 500px;
+    width: 1530px;
+    height: 650px;
     background: rgb(173,232,244);
     position: relative;
     top: 100px;
     left: 0px;
 }
 .rgbbalk4 {
-    width: 1546px;
-    height: 50px;
+    width: 1530px;
+    height: 70px;
     background: rgb(230,57,70);
     position: absolute;
-    top: 498px;
-    left: 0px;
+    top: 800px;
+    left: -1100px;
 }
 
 #menu {
@@ -60,13 +60,23 @@
 
 .clickimg {
     position: absolute;
-    top: 498px;
-    left: 1450px;
+    top: 810px;
+    left: 370px;
 }
     .clickimg1 {
-        position: relative;
-        top: 2px;
-        left: 1450px;
+        position: absolute;
+        top: 50px;
+        left: 100px;
+    }
+    .clickimg2 {
+        position: absolute;
+        top: 50px;
+        left: 600px;
+    }
+    .clickimg3 {
+        position: absolute;
+        top: 0px;
+        left: 1000px;
     }
 .images {
     position: relative;
@@ -110,7 +120,7 @@
   .textright1 {
     position: absolute;
     top: -150px;
-    left: 688px;
+    left: 682px;
   }
   .textright2 {
     position: absolute;
@@ -119,11 +129,31 @@
   }
   .textleft1 {
     position: absolute;
-    top: 50px;
-    left: 450px;
+    top: 550px;
+    left: 200px;
   }
-  .textright2 {
+  .textleft2 {
     position: absolute;
-    top: 70px;
-    left: 100px;
+    top: 300px;
+    left: 1250px;
+  }
+  .textleft3 {
+    position: absolute;
+    top: 350px;
+    left: 1000px;
+  }
+  .textleft4 {
+    position: absolute;
+    top: 500px;
+    left: 630px;
+  }
+  .textleft5 {
+    position: absolute;
+    top: 500px;
+    left: 110px;
+  }
+  .textright4{
+    position: absolute;
+    top: 0px;
+    left: 650px;
   }
