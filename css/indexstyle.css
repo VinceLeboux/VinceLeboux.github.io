@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-color: white
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #00555D;
+}
+
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #00555D;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+
+}
+
+.logo_container h1 span {
+    font-weight: 800;
+}
+
+.navigation {
+    float: right;
+    height: 100%
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a:last-child {
+    padding-right: 0;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+.container-head{
+  display:flex;
+  /*
+  align-items:flex-start;
+  align-items:flex-end;
+  align-items:center;
+
+  flex-direction:column;
+  */
+}
+
+.box-head{
+  flex:1;
+  order:1;
+  background-color: #e56a54;
+}
+
+.container-1{
+  display:flex;
+  /*
+  align-items:flex-start;
+  align-items:flex-end;
+  align-items:center;
+
+  flex-direction:column;
+  */
+}
+
+.box-1{
+  flex:0.1;
+  order:1;
+  background-color: #e56a54;
+}
+
+.box-2{
+  flex:1;
+  order:2;
+}
+
+.sidebar {
+  height: 50%;
+  width: 50%;
+  display: block;
+  background-color: #e56a54
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.intro {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.intro-slideshow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: width: 100vw; */
+  height: 100%; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: height: 100vh; */ 
+  object-fit: cover;
+  z-index:-1;
+  /* filter: brightness(50%); */ /* 0% black, 100% original image, values > 100% are allowed for brighter than original image. */
+  /* display: none; */
+  opacity: 0;
+  transition: opacity 0.75s ease-in-out;
+}
+
+.intro .intro-header {
+  border-radius: 0.5rem;
+  padding: 2rem 2.5rem;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.intro h1 {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+}
+
+.intro p {
+  font-size: 1.75rem;
+}
+
+@media (max-width: 800px) {
+ body {
+   flex-direction:column;
+ }
+}
